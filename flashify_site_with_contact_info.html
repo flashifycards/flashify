@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashify</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f3f0;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header, nav, section, footer {
+      width: 100%;
+      max-width: 900px;
+      margin: auto;
+      padding: 1.5rem;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: #fffaf4;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      font-weight: 500;
+      border-bottom: 1px solid #e4e0d8;
+      z-index: 1000;
+    }
+    nav a {
+      color: #3d3a34;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 1.5rem 2rem;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      margin: 0;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      margin-top: 1rem;
+      color: #7a7468;
+    }
+    .product {
+      background: #fff;
+      border-radius: 10px;
+      padding: 2rem;
+      margin: 2rem 0;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .product h2 {
+      color: #3d3a34;
+    }
+    .product p {
+      color: #5f5b52;
+    }
+    .btn {
+      display: inline-block;
+      background: #3d3a34;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 500;
+      margin-top: 1rem;
+      transition: 0.2s ease;
+    }
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .highlights {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .highlight {
+      flex: 1 1 45%;
+      background: #fdfdfb;
+      border-left: 4px solid #3d3a34;
+      padding: 1rem;
+      border-radius: 6px;
+      font-size: 0.95rem;
+    }
+    blockquote {
+      font-style: italic;
+      color: #666;
+      text-align: center;
+      margin: 3rem auto 0;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.85rem;
+      color: #999;
+    }
+    footer a {
+      color: #3d3a34;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#why">Why Flashify</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header class="hero" id="home">
+    <h1>Not just flashcards. A study experience.</h1>
+    <p>Minimalist cards. Maximum memory.</p>
+  </header>
+
+  <section id="shop">
+    <div class="product">
+      <h2>Flashify QuickCards™</h2>
+      <p>Fast, focused, and pocket-sized. 50–80 of the most important terms per topic, printed on eco-friendly A7 cards.</p>
+      <div class="highlights">
+        <div class="highlight">✅ FSC & PCF paper</div>
+        <div class="highlight">📦 Linen sleeve packaging</div>
+        <div class="highlight">🎯 Compatible with AI quiz</div>
+        <div class="highlight">🌍 Pre-order, zero-waste</div>
+      </div>
+      <a class="btn" href="https://strandian.gumroad.com/l/rktivn" target="_blank">📦 Order QuickCards (AED 50)</a>
+    </div>
+
+    <div class="product">
+      <h2>Flashify MasterCards™</h2>
+      <p>In-depth A6 flashcards with full definitions, key explanations, and optional diagrams. For serious IB warriors.</p>
+      <div class="highlights">
+        <div class="highlight">📝 Space for notes</div>
+        <div class="highlight">📘 Textbook-based answers</div>
+        <div class="highlight">🔗 Link to video explanations</div>
+        <div class="highlight">💡 Clear formatting</div>
+      </div>
+      <a class="btn" href="https://strandian.gumroad.com/l/hyten" target="_blank">📘 Get MasterCards (AED 120)</a>
+    </div>
+
+    <div class="product">
+      <h2>🔥 Coming Soon: Flashify ProPack™</h2>
+      <p>The ultimate bundle of QuickCards + MasterCards for your chosen subject. Perfectly paired for recall and depth — with international shipping and custom linen carrying sleeves available.</p>
+      <a class="btn" href="#">👀 Launching Soon</a>
+    </div>
+  </section>
+
+  <section id="why">
+    <div class="product">
+      <h2>Why Flashify?</h2>
+      <p>Flashify cards are designed to feel good in your hand and even better in your study routine. We use 300GSM FSC-certified and PCF (Process Chlorine Free) paper for durability, sustainability, and a premium matte finish. Each card is structured for clarity with space for notes or linked content. Our packaging includes linen sleeves or rigid boxes for a premium feel, and we keep waste to a minimum by operating on a pre-order basis. We stand by a minimalist aesthetic that doesn’t compromise academic depth — this is study gear made to look and feel elevated.</p>
+    </div>
+  </section>
+
+  <blockquote>“Flashify is the first time I felt like flashcards weren’t a waste of time.”<br>— IB HL Student, Dubai</blockquote>
+
+  <footer id="contact">
+    &copy; 2025 Flashify. Designed with love for students. <br>
+    Contact: <a href="mailto:Flashifycards@gmail.com">Flashifycards@gmail.com</a> · IG: <a href="https://www.instagram.com/flashifycards/" target="_blank">@flashifycards</a> · Phone: <a href="tel:+971545525777">+971 54 552 5777</a><br>
+    International shipping available.
+  </footer>
+</body>
+</html>
